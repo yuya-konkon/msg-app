@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('message/{msg}', 'MessageController@show');
+Route::get('message/{name}/{msg}', 'MessageController@show');
